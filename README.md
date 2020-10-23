@@ -1,14 +1,14 @@
-# Puedo salir de Madrid? 
+# Google Cloud CI/CD 
 
-Ultra shitty web that indicates if you can leave Madrid or not
+Test project for learning how to work with Google Cloud Build and Google Cloud Run
 
 ## Getting Started
 
 Just run:
 
 ```
-docker build . -t puedosalirdemadridhoy
-docker run -d -p 80:8080 puedosalirdemadridhoy
+docker build . -t gcloudcicd 
+docker run -d -p 80:8080 gcloudcicd
 ```
 
 Then you'll have available the website at localhost
@@ -34,7 +34,3 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## License
 
 This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Web de cachondeo :D
